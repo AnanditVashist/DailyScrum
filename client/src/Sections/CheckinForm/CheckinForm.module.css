@@ -1,0 +1,60 @@
+.container {
+	height: 70vh;
+	width: 50vw;
+	background-color: #ffffff;
+	border-radius: 2%;
+}
+.container > h1,
+p {
+	text-align: center;
+}
+
+.form {
+	height: 80%;
+}
+.form input {
+	display: block;
+}
+
+.form-body {
+	margin-left: 5%;
+	margin-top: 5%;
+	height: 70%;
+}
+
+.form button {
+	float: right;
+}
+.container h1 {
+	margin-top: 2%;
+	font-family: "Inter";
+	font-weight: 700;
+	font-size: x-large;
+}
+.container p {
+	margin-top: 1%;
+	font-family: "Inter";
+	font-weight: 500;
+}
+
+.container label {
+	font-family: "Inter";
+	font-weight: 500;
+}
+
+.container img {
+	height: 20px;
+	width: 20px;
+}
+.form-body input {
+	height: 100%;
+	width: 50%;
+}
+
+.form-controls {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	column-gap: 10%;
+	margin-top: 7%;
+}

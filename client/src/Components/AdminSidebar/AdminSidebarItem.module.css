@@ -1,0 +1,17 @@
+.admin-sidebar-item {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.admin-sidebar-item img {
+	height: 50px;
+	width: 50px;
+	margin: auto;
+}
+
+.admin-sidebar-item p {
+	color: white;
+	font-family: "Inter";
+	text-align: center;
+	margin-top: 5px;
+}
